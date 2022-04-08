@@ -1,0 +1,410 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+img {
+  width:100%;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!reset css!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-img {
+  position: relative;
+}
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  color: white;
+  font-family: 'Cinzel',
+  serif;
+  font-weight: bold;
+}
+
+.hdimg {
+  width: 100%;
+}
+
+.pgmenut {
+  text-align: center;
+  margin: 3vh auto;
+}
+.pgmenu-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
+}
+.pgmenu1 {
+  width: 75vw;
+  margin: 0 auto;
+}
+.pgmenu1-subtitle {
+  text-align: center;
+  color: #256B4A;
+  margin-bottom: 3vh;
+}
+.pgmenu-gr1 {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+.pgmenu-gr1 {
+  width: 70vw;
+  margin: 0 auto;
+  display: block;
+}
+}
+
+.pgmenua {
+  width: 33vw;
+  margin-bottom: 5vh;
+}
+@media screen and (max-width: 768px) {
+.pgmenua {
+  width: 70vw;
+  margin-bottom: 5vh;
+}
+}
+
+.pgmenu1-image {
+  margin: 0 auto;
+  margin-bottom: 3vh;
+
+}
+.cupcakeimg {
+  width: 30vw;
+  padding:0 auto;
+}
+@media screen and (max-width: 768px) {
+.cupcakeimg {
+  width: 70vw;
+  padding: 0 auto;
+}
+}
+.pgmenu1-text {
+  color: #256B4A;
+}
+
+.pgmenu1-text1 {
+  font-size: 20px;
+  margin-bottom: 2vh;
+}
+.pgmenu1-text2 {
+  font-size: 15px;
+  line-height: 23px;
+}
+.pgmenu2 {
+  width: 90vw;
+  margin: 0 auto;
+}
+.pgmenu-bar {
+  border: solid 0.3px #256B4A;
+}
+.pgmenu2-subtitle {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: 20px;
+  color: #256B4A;
+  text-align: center;
+  font-family: 'Cinzel',
+  serif;
+}
+.pgmenu-gr2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+.pgmenu-gr2 {
+  width: 50vw;
+  display: block;
+  margin: 0 auto;
+}
+}
+.sandimg {
+  width: 27vw;
+}
+@media screen and (max-width: 768px) {
+.sandimg {
+  width: 50vw;
+}
+}
+.pgmenub {
+  width: 27vw;
+}
+@media screen and (max-width: 768px) {
+.pgmenub {
+  width: 50vw;
+}
+}
+.pgmenu2-image {
+  margin-bottom: 2vh;
+}
+.pgmenu2-text {
+  color: #256B4A;
+  text-align: center;
+}
+.pgmenu2-text1 {
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+.pgmenu2-text2 {
+  font-size: 15px;
+  margin-bottom: 3vh;
+}
+
+.pgother {
+  width: 90vw;
+  margin: 3vh auto;
+}
+.othermenu-lr {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #256B4A;
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+.othermenu-lr {
+  width: 60vw;
+  margin: 0 auto;
+  display: block;
+  color: #256B4A;
+  font-size: 15px;
+}
+}
+.othermenu-title {
+  font-size: 20px;
+  margin-bottom: 3vh;
+  font-family: 'Cinzel',
+  serif;
+}
+.othermenut {
+  font-size: 15px;
+  line-height: 25px;
+}
+.otherfood {
+  margin-bottom: 5vh;
+}
+.price {
+  padding-left: 3vw;
+}
+.karatag {
+  height: 25px;
+}
+.footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: #DCDCDC;
+  vertical-align: middle;
+  position: relative;
+}
+
+.footertext {
+  width: 90vw;
+  color: #256B4A;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin:0 auto;
+  font-family: 'Cinzel',
+  serif;
+}
+
+.ftext1 {
+  color: #256B4A;
+  font-family: 'Cinzel',
+  serif;
+}
+
+.ftextlink {
+  text-decoration: none;
+  margin-right: 5px;
+}

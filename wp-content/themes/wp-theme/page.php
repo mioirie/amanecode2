@@ -1,0 +1,307 @@
+<?php
+/*
+Template Name: メニュー一覧
+*/
+?>
+
+
+<?php get_header(); ?>
+
+<div class="pgmenu">
+  <div class="pgmenut">
+    <h3 class="pgmenu-title">cafe menu</h3>
+  </div> <!-- pgmenut -->
+</div> <!-- pgmenu -->
+
+<div class="pgmenu1">
+  <p class="pgmenu1-subtitle">おすすめメニュー</p>
+  <div class="pgmenu-gr1">
+    <div class="pgmenua">
+      <div class="pgmenu1-image">
+        <img src="wp-content/themes/wp-theme/img/yummycupcakes.png" alt="no-image" class="cupcakeimg">
+      </div>
+      <div class="pgmenu1-text">
+        <div class="pgmenu1-text1">
+          <p>香るカップケーキ （グルテンフリー）</p>
+        </div>
+        <div class="pgmenu1-text2">
+          <p>ローズ・バイオレット・ジャスミン・ゆず<br>
+            amane cafeの看板商品！<br>
+            米粉を使い上品な甘さに仕上げました。こだわりのクリームは<br>
+            天然香料のエッセンスで優しい香り。
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenua -->
+    <div class="pgmenua">
+      <div class="pgmenu1-image">
+        <img src="wp-content/themes/wp-theme/img/chai.png" alt="no-image" class="cupcakeimg">
+      </div>
+      <div class="pgmenu1-text">
+        <div class="pgmenu1-text1">
+          <p>本格スパイスのマサラチャイ</p>
+        </div>
+        <div class="pgmenu1-text2">
+          <p>インドから取り寄せたシナモン・カルダモン・クローブを<br>
+            使いました。現地のレシピを参考にした本格派です
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenua -->
+    <div class="pgmenua">
+      <div class="pgmenu1-image">
+        <img src="wp-content/themes/wp-theme/img/kissyu.png" alt="no-image" class="cupcakeimg">
+      </div>
+      <div class="pgmenu1-text">
+        <div class="pgmenu1-text1">
+          <p>自家製キッシュのランチ</p>
+        </div>
+        <div class="pgmenu1-text2">
+          <p>愛知県と岐阜県の契約農家さんから仕入れた野菜にこだわった<br>
+            キッシュを毎朝お店で焼いています。
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenua -->
+    <div class="pgmenua">
+      <div class="pgmenu1-image">
+        <img src="wp-content/themes/wp-theme/img/sakuramochi.png" alt="no-image" class="cupcakeimg">
+      </div>
+      <div class="pgmenu1-text">
+        <div class="pgmenu1-text1">
+          <p>季節の緑茶（和菓子付き）※数量限定</p>
+        </div>
+        <div class="pgmenu1-text2">
+          <p>産地にこだわった緑茶を季節の和菓子とともに。</p>
+        </div>
+      </div>
+    </div> <!-- pgmenua -->
+  </div> <!-- pgmenu-gr1 -->
+</div> <!-- pgmenu1 -->
+
+<div class="pgmenu2">
+  <div class="pgmenu-bar"></div>
+  <p class="pgmenu2-subtitle">food & sweets menu</p>
+  <div class="pgmenu-gr2">
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/hotsand.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/basilpasta.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/tartechocorat.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/spicecoffee.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/minttea.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="img/smoothie.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>モロッコ風ミントティー　￥500</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>地元産の無農薬ミントをふんだんに使った<br>
+            フレッシュで優しい香りのミントティー。<br>
+            季節問わず人気です！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+  </div> <!-- pgmenu-gr2 -->
+</div> <!-- pgmenu2 -->
+
+<div class="pgother">
+  <div class="pgmenu-bar"></div>
+  <p class="pgmenu2-subtitle">other menu</p>
+  <div class="othermenu-lr">
+    <div class="othermenu-left">
+      <div class="otherfood">
+        <p class="othermenu-title">food</p>
+        <table class="othermenutbl">
+          <tbody>
+            <tr class="othermenut">
+              <td>季節の野菜と地鶏のホットサンドイッチ</td>
+              <td class="price">￥650</td>
+            </tr>
+            <tr class="othermenut">
+              <td>自家製キッシュのランチ</td>
+              <td class="price">￥800</td>
+            </tr>
+            <tr class="othermenut">
+              <td>国産バジルソースの生パスタ</td>
+              <td class="price">￥850</td>
+            </tr>
+            <tr class="othermenut">
+              <td>イタリア産生ハムと無農薬ルッコラの自家製ピザ</td>
+              <td class="price">￥850</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- otherfood -->
+
+      <div class="othersweets">
+        <p class="othermenu-title">sweets</p>
+        <table class="othermenutbl">
+          <tbody>
+            <tr class="othermenut">
+              <td>オリジナルカップケーキ</td>
+              <td class="price">￥400</td>
+            </tr>
+            <tr class="othermenut">
+              <td>ラズベリーとショコラのタルト</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="othermenut">
+              <td>愛媛産みかんのパウンドケーキ</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="othermenut">
+              <td>バナナとシナモンのマフィン</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="karatag"></tr>
+            <tr class="othermenut">
+              <td>季節の和菓子</td>
+              <td class="price">￥300</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- othersweets -->
+    </div> <!-- othermenu-left -->
+
+    <div class="othermenu-right">
+      <div class="otherdrink">
+        <p class="othermenu-title">drink</p>
+        <table class="othermenutbl">
+          <tbody>
+            <tr class="othermenut">
+              <td>コーヒー（HOT/ICE）</td>
+              <td class="price">￥400</td>
+            </tr>
+            <tr class="othermenut">
+              <td>スパイスコーヒー（HOT）</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="othermenut">
+              <td>エスプレッソ</td>
+              <td class="price">￥300</td>
+            </tr>
+            <tr class="othermenut">
+              <td>カフェラテ（HOT/ICE）</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="othermenut">
+              <td>カプチーノ（HOT/ICE）</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="karatag"></tr>
+            <tr class="othermenut">
+              <td>紅茶（HOT/ICE）</td>
+              <td class="price">￥400</td>
+            </tr>
+            <tr class="othermenut">
+              <td>フレーバーティー</td>
+              <td class="price">￥450</td>
+            </tr>
+            <tr class="karatag"></tr>
+            <tr class="othermenut">
+              <td>モロッコ風ミントティー</td>
+              <td class="price">￥500</td>
+            </tr>
+            <tr class="othermenut">
+              <td>スパイスチャイ（HOTのみ）</td>
+              <td class="price">￥600</td>
+            </tr>
+            <tr class="karatag"></tr>
+            <tr class="othermenut">
+              <td>季節の緑茶（和菓子付き）</td>
+              <td class="price">￥650</td>
+            </tr>
+            <tr class="othermenut">
+              <td>自家製ジンジャーエール</td>
+              <td class="price">￥500</td>
+            </tr>
+            <tr class="othermenut">
+              <td>スムージー</td>
+              <td class="price">￥550</td>
+            </tr>
+          </tbody>
+        </table>
+      </div> <!-- othersweets -->
+    </div> <!-- othermenu-right -->
+  </div>
+</div> <!-- pgother -->
+
+<?php get_footer(); ?>
