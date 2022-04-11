@@ -217,16 +217,13 @@ body {
   border: solid 0.5px #cccccc;
   margin: 0 auto;
   margin-top: 5vh;
-  padding-bottom: 5vh;
+  padding-bottom: 7vh;
 }
 .frnews-title {
-  width: 17vw;
-  line-height: 45px;
-  background-color: #256B4A;
-  border-radius: 20px;
   text-align: center;
-  font-size: 20px;
-  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  color: #256B4A;
   font-family: 'Cinzel',
     serif;
   margin-top: 3vh;
@@ -255,16 +252,44 @@ body {
   text-decoration: none;
   color: #256B4A;
 }
-.fr-footer {
-  color: #256B4A;
+.button {
+  width: 15vw;
+  line-height: 27px;
+  background-color: #256B4A;
+  color: white;
+  font-size: 15px;
   font-family: 'Cinzel',
     serif;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
-  margin-right: 0;
-  margin-bottom: 3vh;
+  margin: 0 0 3vh auto;
   float: right;
+  border-radius: 20px;
 }
+
+@media screen and (max-width: 768px) {
+.button {
+  width: 20vw;
+  line-height: 27px;
+  background-color: #256B4A;
+  color: white;
+  font-size: 15px;
+  font-family: 'Cinzel',
+  serif;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0 3vh auto;
+  float: right;
+  border-radius: 20px;
+  }
+}
+
+.button:hover {
+  background:#73abb8;
+  box-shadow:0px 0px 10px #ccc;
+}
+
+
 .frinfo {
   width: 80vw;
   display: flex;
@@ -381,8 +406,8 @@ body {
 }
 .frmenua-title {
   color: #256B4A;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: bolder;
   margin-top: 10px;
   margin-left: 1.5vw;
 }
@@ -396,7 +421,7 @@ body {
 .sns {
   width: 20vw;
   justify-content: space-between;
-  margin: 5vh auto;
+  margin: 8vh auto;
 }
 .snsgroup {
   display: flex;
@@ -449,12 +474,12 @@ body {
     margin-top: 3vh;
   }
 }
-.map {
-  width: 33vw;
+iframe {
+  width: 30vw;
 }
 @media screen and (max-width: 768px) {
-  .map {
-    width: 33vw;
+  .iframe {
+    width: 30vw;
     margin-top: 3vh;
   }
 }
@@ -479,12 +504,25 @@ body {
 }
 .ftext1 {
   color: #256B4A;
+  font-weight: bold;
 }
 .ftextlink {
   text-decoration: none;
-  margin-right: 5px;
+  margin-right: 10px;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
+.ftextlink:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.amane {
+  font-weight: bold;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!single.php!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .sgltitle {
@@ -494,6 +532,9 @@ body {
 }
 .sgltitle-1 {
   font-size: 25px;
+  font-weight: bold;
+  font-family: 'Cinzel',
+  serif;
 }
 .sgltitle-2 {
   font-size: 18px;
@@ -516,6 +557,7 @@ body {
   }
 }
 .sglgroup-text {
+  width: 35vw;
   color: #256B4A;
   font-size: 15px;
   line-height: 25px;
@@ -532,7 +574,7 @@ body {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!category.php!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .catenews {
-  width: 60vw;
+  width: 65vw;
   margin: 0 auto;
 }
 .catenewst {
@@ -540,14 +582,19 @@ body {
   margin: 3vh auto;
 }
 .catenews-title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: #256B4A;
   font-family: 'Cinzel',
     serif;
 }
-.catemenu-group {
+.catemenu-text1 {
   width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.catemenu-group {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -559,21 +606,32 @@ body {
   }
 }
 .catemenua {
-  width: 18vw;
+  width: 20vw;
   margin-bottom: 5vh;
   font-size: 15px;
   color: #256B4A;
   text-decoration: none;
   line-height: 20px;
 }
-.catemenuimg {
-  width: 18vw;
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 20vw;
 }
+
 .catemenu-readmore {
   font-family: 'Cinzel',
     serif;
   font-weight: bold;
+    display: inline-block;
+    transition: .3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
+.catemenu-readmore:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .catemenu-footer {
   width: 18vw;
   display: flex;
@@ -612,6 +670,9 @@ body {
   text-align: center;
   color: #256B4A;
   margin-bottom: 3vh;
+  font-size: 20px;
+  font-family: 'Cinzel',
+  serif;
 }
 .pgmenu-gr1 {
   width: 70vw;
@@ -667,7 +728,7 @@ body {
   margin: 0 auto;
 }
 .pgmenu-bar {
-  border: solid 0.3px #256B4A;
+  border: solid 0.3px mediumseagreen;
 }
 .pgmenu2-subtitle {
   margin-top: 5vh;
@@ -720,13 +781,14 @@ body {
 .pgmenu2-text2 {
   font-size: 15px;
   margin-bottom: 3vh;
+  line-height: 23px;
 }
 .pgother {
   width: 90vw;
   margin: 3vh auto;
 }
 .othermenu-lr {
-  width: 60vw;
+  width: 75vw;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -756,7 +818,7 @@ body {
   margin-bottom: 5vh;
 }
 .price {
-  padding-left: 3vw;
+  padding-left: 2vw;
 }
 .karatag {
   height: 25px;

@@ -3,10 +3,10 @@
 <?php if (have_posts()) : the_post(); ?>
   <!-- メインループ開始 -->
   <div class="sgltitle">
-    <?php the_title(); ?>
+    <h3 class="sgltitle-1"><?php the_title(); ?></h3>
     <!-- タイトルの出力 -->
-    <h3 class="sgltitle-1"></h3>
-    <p class="sgltitle-2"></p>
+    <p class="sgltitle-2"><?php echo esc_html($post->サブタイトル); ?></p>
+    <!-- サブタイトル（カスタムフィールド）の出力 -->
   </div>
 
   <!--

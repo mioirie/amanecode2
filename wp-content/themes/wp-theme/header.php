@@ -19,6 +19,6 @@
 <body <?php body_class(); ?>>
   <div class="header-img">
 
-    <img src="wp-content/themes/wp-theme/img/header.png" alt="no-image" class="hdimg">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/header.png" alt="no-image" class="hdimg">
     <p class="header-text">amane aromatique cafe</p>
   </div> <!-- headerimg -->

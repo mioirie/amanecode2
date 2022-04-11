@@ -28,7 +28,7 @@
 
         </tbody>
       </table> <!-- frnews-table -->
-      <a href="<?php echo get_category_link(1); ?>" class="fr-footer">show all news</a>
+      <a href="<?php echo get_category_link(1); ?>" class="button">show all news</a>
     </div> <!-- frnewstbl -->
 
   </div> <!-- frnews -->
@@ -121,9 +121,10 @@
       </div> <!-- frmenua -->
     </div> <!-- frmenu-content -->
     <div class="frmenut">
-      <a href="<?php echo home_url("grandmenu"); ?>" class="fr-footer">show all news</a>
+      <a href="<?php echo home_url("grandmenu"); ?>" class="button">show all menu</a>
     </div> <!-- frmenut -->
   </div> <!-- frmenu -->
+
 
   <div class="sns">
     <div class="snsgroup">
@@ -164,7 +165,7 @@
     </div> <!-- sinfotext -->
 
     <div class="sinfoimage">
-      <img src="wp-content/themes/wp-theme/img/mapimage.png" alt="no-image" class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.4267422031876!2d136.87934285052194!3d35.170914980219855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600376e794d78b89%3A0x81f7204bf8261663!2z5ZCN5Y-k5bGL6aeF!5e0!3m2!1sja!2sjp!4v1649589226618!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div> <!-- sinfoimage -->
   </div> <!-- shopinfo -->
 </div> <!-- color -->

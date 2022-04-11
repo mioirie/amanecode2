@@ -4,7 +4,6 @@ Template Name: メニュー一覧
 */
 ?>
 
-
 <?php get_header(); ?>
 
 <div class="pgmenu">
@@ -14,65 +13,64 @@ Template Name: メニュー一覧
 </div> <!-- pgmenu -->
 
 <div class="pgmenu1">
-  <p class="pgmenu1-subtitle">おすすめメニュー</p>
+  <p class="pgmenu1-subtitle">amanecafe名物！おすすめメニュー</p>
   <div class="pgmenu-gr1">
     <div class="pgmenua">
       <div class="pgmenu1-image">
-        <img src="wp-content/themes/wp-theme/img/yummycupcakes.png" alt="no-image" class="cupcakeimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/yummycupcakes.png" alt="no-image" class="cupcakeimg">
       </div>
       <div class="pgmenu1-text">
         <div class="pgmenu1-text1">
-          <p>香るカップケーキ （グルテンフリー）</p>
+          <p>香るカップケーキ （グルテンフリー）￥400</p>
         </div>
         <div class="pgmenu1-text2">
           <p>ローズ・バイオレット・ジャスミン・ゆず<br>
             amane cafeの看板商品！<br>
-            米粉を使い上品な甘さに仕上げました。こだわりのクリームは<br>
-            天然香料のエッセンスで優しい香り。
+            米粉を使い上品な甘さに仕上げました。こだわりのクリームは天然香料のエッセンスで優しい香り。
           </p>
         </div>
       </div>
     </div> <!-- pgmenua -->
     <div class="pgmenua">
       <div class="pgmenu1-image">
-        <img src="wp-content/themes/wp-theme/img/chai.png" alt="no-image" class="cupcakeimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/chai.png" alt="no-image" class="cupcakeimg">
       </div>
       <div class="pgmenu1-text">
         <div class="pgmenu1-text1">
-          <p>本格スパイスのマサラチャイ</p>
+          <p>本格スパイスのマサラチャイ　￥600</p>
         </div>
         <div class="pgmenu1-text2">
-          <p>インドから取り寄せたシナモン・カルダモン・クローブを<br>
-            使いました。現地のレシピを参考にした本格派です
+          <p>インドから取り寄せたシナモン・カルダモン・クローブを使いました。現地のレシピを参考にした本格派です
           </p>
         </div>
       </div>
     </div> <!-- pgmenua -->
     <div class="pgmenua">
       <div class="pgmenu1-image">
-        <img src="wp-content/themes/wp-theme/img/kissyu.png" alt="no-image" class="cupcakeimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/kissyu.png" alt="no-image" class="cupcakeimg">
       </div>
       <div class="pgmenu1-text">
         <div class="pgmenu1-text1">
-          <p>自家製キッシュのランチ</p>
+          <p>自家製キッシュのランチ　￥800</p>
         </div>
         <div class="pgmenu1-text2">
-          <p>愛知県と岐阜県の契約農家さんから仕入れた野菜にこだわった<br>
-            キッシュを毎朝お店で焼いています。
+          <p>愛知県と岐阜県の契約農家さんから仕入れた野菜にこだわったキッシュを毎朝お店で焼いています。
           </p>
         </div>
       </div>
     </div> <!-- pgmenua -->
     <div class="pgmenua">
       <div class="pgmenu1-image">
-        <img src="wp-content/themes/wp-theme/img/sakuramochi.png" alt="no-image" class="cupcakeimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/sakuramochi.png" alt="no-image" class="cupcakeimg">
       </div>
       <div class="pgmenu1-text">
         <div class="pgmenu1-text1">
-          <p>季節の緑茶（和菓子付き）※数量限定</p>
+          <p>季節の緑茶（和菓子付） ￥650</p>
         </div>
         <div class="pgmenu1-text2">
-          <p>産地にこだわった緑茶を季節の和菓子とともに。</p>
+          <p>産地にこだわった緑茶を季節の和菓子とともに。<br>
+             ※数量限定
+          </p>
         </div>
       </div>
     </div> <!-- pgmenua -->
@@ -81,11 +79,73 @@ Template Name: メニュー一覧
 
 <div class="pgmenu2">
   <div class="pgmenu-bar"></div>
-  <p class="pgmenu2-subtitle">food & sweets menu</p>
+  <p class="pgmenu2-subtitle">素材にこだわった心と体に優しいメニュー</p>
   <div class="pgmenu-gr2">
     <div class="pgmenub">
       <div class="pgmenu2-image">
-        <img src="img/hotsand.png" alt="no-image" class="sandimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/hotsand.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>季節の野菜と地鶏の<br>ホットサンドイッチ　￥650</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>契約農家さんの野菜と三河産の地鶏を<br>
+            天然酵母のパンに挟んで焼き上げました。<br>
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/basilpasta.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>国産バジルソースの生パスタ　￥850</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>自家製のもちもち太麺パスタに<br>
+            厳選バジルソースを絡めました。<br>
+            オープン当時からの人気メニュー！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/tartechocorat.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>ラズベリーとショコラのタルト　￥450</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>フレッシュラズベリーの酸味とベルギー産<br>
+            チョコレートの濃厚さがベストマッチ。<br>
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/spicecoffee.png" alt="no-image" class="sandimg">
+      </div>
+      <div class="pgmenu2-text">
+        <div class="pgmenu2-text1">
+          <p>スパイスコーヒー　￥450</p>
+        </div>
+        <div class="pgmenu2-text2">
+          <p>バリスタが研究し調合したスパイスを<br>
+            コーヒーに合わせてみました。<br>
+            すっきりとした飲み口でファン多数！
+          </p>
+        </div>
+      </div>
+    </div> <!-- pgmenub -->
+    <div class="pgmenub">
+      <div class="pgmenu2-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/minttea.png" alt="no-image" class="sandimg">
       </div>
       <div class="pgmenu2-text">
         <div class="pgmenu2-text1">
@@ -101,80 +161,16 @@ Template Name: メニュー一覧
     </div> <!-- pgmenub -->
     <div class="pgmenub">
       <div class="pgmenu2-image">
-        <img src="img/basilpasta.png" alt="no-image" class="sandimg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/smoothie.png" alt="no-image" class="sandimg">
       </div>
       <div class="pgmenu2-text">
         <div class="pgmenu2-text1">
-          <p>モロッコ風ミントティー　￥500</p>
+          <p>スムージー　￥550</p>
         </div>
         <div class="pgmenu2-text2">
-          <p>地元産の無農薬ミントをふんだんに使った<br>
-            フレッシュで優しい香りのミントティー。<br>
-            季節問わず人気です！
-          </p>
-        </div>
-      </div>
-    </div> <!-- pgmenub -->
-    <div class="pgmenub">
-      <div class="pgmenu2-image">
-        <img src="img/tartechocorat.png" alt="no-image" class="sandimg">
-      </div>
-      <div class="pgmenu2-text">
-        <div class="pgmenu2-text1">
-          <p>モロッコ風ミントティー　￥500</p>
-        </div>
-        <div class="pgmenu2-text2">
-          <p>地元産の無農薬ミントをふんだんに使った<br>
-            フレッシュで優しい香りのミントティー。<br>
-            季節問わず人気です！
-          </p>
-        </div>
-      </div>
-    </div> <!-- pgmenub -->
-    <div class="pgmenub">
-      <div class="pgmenu2-image">
-        <img src="img/spicecoffee.png" alt="no-image" class="sandimg">
-      </div>
-      <div class="pgmenu2-text">
-        <div class="pgmenu2-text1">
-          <p>モロッコ風ミントティー　￥500</p>
-        </div>
-        <div class="pgmenu2-text2">
-          <p>地元産の無農薬ミントをふんだんに使った<br>
-            フレッシュで優しい香りのミントティー。<br>
-            季節問わず人気です！
-          </p>
-        </div>
-      </div>
-    </div> <!-- pgmenub -->
-    <div class="pgmenub">
-      <div class="pgmenu2-image">
-        <img src="img/minttea.png" alt="no-image" class="sandimg">
-      </div>
-      <div class="pgmenu2-text">
-        <div class="pgmenu2-text1">
-          <p>モロッコ風ミントティー　￥500</p>
-        </div>
-        <div class="pgmenu2-text2">
-          <p>地元産の無農薬ミントをふんだんに使った<br>
-            フレッシュで優しい香りのミントティー。<br>
-            季節問わず人気です！
-          </p>
-        </div>
-      </div>
-    </div> <!-- pgmenub -->
-    <div class="pgmenub">
-      <div class="pgmenu2-image">
-        <img src="img/smoothie.png" alt="no-image" class="sandimg">
-      </div>
-      <div class="pgmenu2-text">
-        <div class="pgmenu2-text1">
-          <p>モロッコ風ミントティー　￥500</p>
-        </div>
-        <div class="pgmenu2-text2">
-          <p>地元産の無農薬ミントをふんだんに使った<br>
-            フレッシュで優しい香りのミントティー。<br>
-            季節問わず人気です！
+          <p>ストロベリーやブルーベリーをふんだんに<br>
+            使いました。ボリューム満点なのに<br>
+            うれしい低カロリー！
           </p>
         </div>
       </div>
@@ -216,7 +212,7 @@ Template Name: メニュー一覧
         <table class="othermenutbl">
           <tbody>
             <tr class="othermenut">
-              <td>オリジナルカップケーキ</td>
+              <td>香るカップケーキ （グルテンフリー）</td>
               <td class="price">￥400</td>
             </tr>
             <tr class="othermenut">
@@ -281,7 +277,7 @@ Template Name: メニュー一覧
               <td class="price">￥500</td>
             </tr>
             <tr class="othermenut">
-              <td>スパイスチャイ（HOTのみ）</td>
+              <td>本格スパイスのマサラチャイ（HOTのみ）</td>
               <td class="price">￥600</td>
             </tr>
             <tr class="karatag"></tr>
