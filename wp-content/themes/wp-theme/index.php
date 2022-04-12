@@ -28,7 +28,9 @@
 
         </tbody>
       </table> <!-- frnews-table -->
-      <a href="<?php echo get_category_link(1); ?>" class="button">show all news</a>
+      <div class="frnewst">
+        <a href="<?php echo get_category_link(1); ?>" class="button">show all news</a>
+      </div>
     </div> <!-- frnewstbl -->
 
   </div> <!-- frnews -->
@@ -160,7 +162,7 @@
         <p class="sinfotext2">終日全席禁煙</p>
         <br>
         <p class="sinfotext2">ご予約・お問い合わせはこちらから</p>
-        <p class="sinfotext2">Tel 　（052）123-0000　　mail amanecafe@ngo.com</p>
+        <p class="sinfotext3">Tel 　（052）123-0000　　mail amanecafe@ngo.com</p>
       </div>
     </div> <!-- sinfotext -->
 

@@ -236,11 +236,19 @@ body {
 }
 .frnews-table {
   width: 60vw;
+  font-size: 15px;
 }
 .frnews-table_row {
   margin-top: 5vh;
   height: 5vh;
 }
+@media screen and (max-width: 768px) {
+  .frnews-table_row {
+    margin-top: 5vh;
+    height: 8vh;
+  }
+}
+
 .frnews-table_date {
   padding-right: 5vw;
   color: #256B4A;
@@ -252,6 +260,11 @@ body {
   text-decoration: none;
   color: #256B4A;
 }
+.frnewst {
+  margin: 0 auto;
+  padding-top: 3vh;
+  text-align: center;
+}
 .button {
   width: 15vw;
   line-height: 27px;
@@ -260,27 +273,23 @@ body {
   font-size: 15px;
   font-family: 'Cinzel',
     serif;
-  text-align: center;
   text-decoration: none;
-  margin: 0 0 3vh auto;
-  float: right;
   border-radius: 20px;
+  padding: 0 2vw;
 }
 
 @media screen and (max-width: 768px) {
 .button {
-  width: 20vw;
+  width: 15vw;
   line-height: 27px;
   background-color: #256B4A;
   color: white;
   font-size: 15px;
   font-family: 'Cinzel',
   serif;
-  text-align: center;
   text-decoration: none;
-  margin: 0 0 3vh auto;
-  float: right;
   border-radius: 20px;
+  padding: 0 2vw;
   }
 }
 
@@ -288,8 +297,6 @@ body {
   background:#73abb8;
   box-shadow:0px 0px 10px #ccc;
 }
-
-
 .frinfo {
   width: 80vw;
   display: flex;
@@ -354,7 +361,8 @@ body {
 .frmenut {
   width: 75vw;
   margin: 0 auto;
-  padding-top: 2vh;
+  padding-top: 3vh;
+  text-align: center;
 }
 .frmenu-title {
   color: #256B4A;
@@ -423,13 +431,26 @@ body {
   justify-content: space-between;
   margin: 8vh auto;
 }
-.snsgroup {
-  display: flex;
+@media screen and (max-width: 768px) {
+  .sns {
+  width: 45vw;
   justify-content: space-between;
+  margin: 5vh auto;
+}
+}
+  .snsgroup {
+  display: flex;
+  justify-content: space-around;
 }
 .snsimg {
-  width: 3vw;
-  height: auto;
+    width: 3vw;
+   height: auto;
+}
+@media screen and (max-width: 768px) {
+ .snsimg {
+    width: 35px;
+    height: auto;
+}
 }
 .shopinfo {
   width: 80vw;
@@ -441,6 +462,7 @@ body {
 @media screen and (max-width: 768px) {
   .shopinfo {
     width: 80vw;
+    display: block;
     margin: 0 auto;
     padding-bottom: 5vh;
     text-align: center;
@@ -470,19 +492,28 @@ body {
 }
 @media screen and (max-width: 768px) {
   .sinfotable {
+    width: 100%;
     margin: 0 auto;
     margin-top: 3vh;
   }
 }
+.sinfotext3 {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+
 iframe {
   width: 30vw;
 }
 @media screen and (max-width: 768px) {
   .iframe {
-    width: 30vw;
+    width: 50vw;
+    height: auto;
     margin-top: 3vh;
   }
 }
+
 .footer {
   width: 100vw;
   height: 5vh;
@@ -490,6 +521,16 @@ iframe {
   vertical-align: middle;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+.footer {
+  width: 100vw;
+  height: 9vh;
+  background-color: #DCDCDC;
+  vertical-align: middle;
+  position: relative;
+}
+}
+
 .footertext {
   width: 90vw;
   color: #256B4A;
@@ -502,10 +543,20 @@ iframe {
   font-family: 'Cinzel',
     serif;
 }
+
 .ftext1 {
   color: #256B4A;
   font-weight: bold;
+  display: flex;
 }
+@media screen and (max-width: 768px) {
+.ftext1 {
+  color: #256B4A;
+  font-weight: bold;
+  display: grid;
+}
+}
+
 .ftextlink {
   text-decoration: none;
   margin-right: 10px;
@@ -562,12 +613,29 @@ iframe {
   font-size: 15px;
   line-height: 25px;
 }
-.sglgroup-image {
-  width: 40vw;
-}
 @media screen and (max-width: 768px) {
-  .sglimg {
-    width: 80vw;
+  .sglgroup-text {
+  width: 100%;
+  color: #256B4A;
+  font-size: 15px;
+  line-height: 25px;
+}
+}
+
+.sglgroup-image {
+  width: 38vw;
+  height: 100%;
+}
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: 38vw;
+  height: 100%;
+}
+/* category.phpの画像が下にあるため上記サイズが消されてしまう */
+
+@media screen and (max-width: 768px) {
+  .sglgroup-image {
+    width: 100%
   }
 }
 
@@ -607,7 +675,7 @@ iframe {
 }
 .catemenua {
   width: 20vw;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   font-size: 15px;
   color: #256B4A;
   text-decoration: none;
